@@ -1,21 +1,20 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Задачи повышенной сложности: Переменные.");
-        System.out.println("Задание 1.");
-        task1(12, 27, 44, 15, 9);
-        System.out.println("Задание 2.");
-        task2(11,77);
-        System.out.println("Задание 3.");
-        task3(247);
+        System.out.println("Задание 6.");
+        task6(12, 27, 44, 15, 9);
+        System.out.println("Задание 7.");
+        task7(11,77);
+        System.out.println("Задание 8.");
+        task8(247);
     }
 
-    public static void task1(int a, int b, int c, int d, int e) {
+    public static void task6(int a, int b, int c, int d, int e) {
         int result = a * (b + (c - d * e));
-        result = -result;
-        System.out.println(result);
+        System.out.println(-result);
     }
 
-    public static void task2(int a, int b) {
+    public static void task7(int a, int b) {
         a = a + b ;
         b = a - b;
         a = a - b;
@@ -23,7 +22,7 @@ public class Main {
         System.out.println(b);
     }
 
-    public static void task3(int a) {
+    public static void task8(int a) {
         a = a / 10;
         int b = a % 10;
 
