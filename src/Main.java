@@ -9,7 +9,7 @@ public class Main {
         task2(247);
         System.out.println("Задачи повышенной сложности: Условные операторы.");
         System.out.println("Задание 6.");
-        task3(23, 158_000);
+        task3(19, 58_000);
         System.out.println("Задание 7.");
         task4(25, 60_000, 330_000, 1.0, 12, 0.5);
 
@@ -44,8 +44,7 @@ public class Main {
         }
         if (salary >= 50_000 && salary < 80_000) {
             creditLimits = creditLimits * 1.2;
-        }
-        if (salary >= 80_000) {
+        }else {
             creditLimits = creditLimits * 1.5;
         }
         System.out.printf("Мы готовы выдать вам кредитную карту с лимитом %s рублей \n", creditLimits);
