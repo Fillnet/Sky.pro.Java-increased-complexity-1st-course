@@ -55,7 +55,7 @@ public class Main {
         if (age < 23) {
             baseRate = baseRate + baseRate * 0.1;
         }
-        if (age < 30) {
+        if (age < 30 && age >= 23) {
             baseRate = baseRate + baseRate * 0.05;
         }
         if (salary > 80_000) {
